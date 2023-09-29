@@ -21,14 +21,13 @@ importers:
         specifier: latest
         version: 1.10.14
 
-  exemples/app:
-    devDependencies:
-      '@vtex-missing/api-types':
-        specifier: workspace:*
-        version: link:../../packages/api-types
+  exemples/app: {}
 
   packages/api-types:
     devDependencies:
+      '@tsconfig/recommended':
+        specifier: ^1.0.3
+        version: 1.0.3
       typescript:
         specifier: ^3.9.7
         version: 3.9.10
@@ -347,6 +346,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.14.0
+    dev: true
+
+  /@tsconfig/recommended@1.0.3:
+    resolution: {integrity: sha512-+jby/Guq9H8O7NWgCv6X8VAiQE8Dr/nccsCtL74xyHKhu2Knu5EAKmOZj3nLCnLm1KooUzKY+5DsnGVqhM8/wQ==}
     dev: true
 
   /@types/is-ci@3.0.0:
