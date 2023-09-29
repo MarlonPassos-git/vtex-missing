@@ -1,0 +1,21 @@
+{
+  "name": "@vtex-missing/api-types",
+  "version": "0.1.0",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "src/**",
+    "src/index.d.ts"
+  ],
+  "types": "src/index.d.ts",
+  "scripts": {
+    "lint": "eslint src/",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
