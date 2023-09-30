@@ -1,4 +1,4 @@
-# @vtex-missing/api-types
+# @vtex-miss/styleguide-types
 
 ## 0.2.0
 
