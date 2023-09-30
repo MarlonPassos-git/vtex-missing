@@ -46,38 +46,17 @@ export const Box: typeof import("@vtex/styleguide/lib/Box");
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Modal%20V2)
    */
   export const EXPERIMENTAL_Table: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_Table");
-// ----
-/**
-   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/ButtonPlain)
-   */
+
   export const EXPERIMENTAL_useCheckboxTree: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useCheckboxTree");
 
-  /**
-   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Conditions)
-   */
   export const EXPERIMENTAL_useTableMeasures: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useTableMeasures");
 
-  /**
-   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Containers/Divider)
-   */
   export const EXPERIMENTAL_useTableProportion: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useTableProportion");
 
-/**
-   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Modal%20V2)
-   */
   export const EXPERIMENTAL_useTableSort: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useTableSort");
 
-  /**
-   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Modal%20V2)
-   */
   export const EXPERIMENTAL_useTableVisibility: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useTableVisibility");
-
-/**
-   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Modal%20V2)
-   */
   export const FloatingActionBar: typeof import("@vtex/styleguide/lib/FloatingActionBar");
-
-
   export const LineChart: typeof import("@vtex/styleguide/lib/LineChart");
   export const ScatterChart: typeof import("@vtex/styleguide/lib/ScatterChart");
   export const SelectableCard: typeof import("@vtex/styleguide/lib/SelectableCard");
