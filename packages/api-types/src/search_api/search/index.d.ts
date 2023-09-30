@@ -1,5 +1,5 @@
-import { SearchForProducts } from "./search_for_products"
+import { SearchForProducts } from './search_for_products';
 
 export type Search = {
-  SearchForProducts: SearchForProducts
-}
+  SearchForProducts: SearchForProducts;
+};

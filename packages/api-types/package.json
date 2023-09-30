@@ -9,12 +9,14 @@
   ],
   "types": "src/index.d.ts",
   "scripts": {
-    "lint": "eslint src/",
+    "lint": "pnpm run lint:prettier",
+    "lint:prettier": "prettier . --write",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "shared": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

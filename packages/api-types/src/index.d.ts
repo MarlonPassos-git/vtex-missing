@@ -1,1 +1,1 @@
-export { SearchApi } from "./search_api"
+export { SearchApi } from './search_api';

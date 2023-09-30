@@ -1,65 +1,65 @@
 declare module 'vtex.styleguide' {
-  export const Progress: typeof import("@vtex/styleguide/lib/Progress"); 
+  export const Progress: typeof import('@vtex/styleguide/lib/Progress');
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/AutocompleteInput)
    */
-  export const AutocompleteInput: typeof import("@vtex/styleguide/lib/AutocompleteInput");
+  export const AutocompleteInput: typeof import('@vtex/styleguide/lib/AutocompleteInput');
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Charts?id=barchart)
    * @experimental
    */
-  export const BarChart: typeof import("@vtex/styleguide/lib/BarChart");
+  export const BarChart: typeof import('@vtex/styleguide/lib/BarChart');
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Containers/Box)
    */
-export const Box: typeof import("@vtex/styleguide/lib/Box");
+  export const Box: typeof import('@vtex/styleguide/lib/Box');
 
-/**
+  /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Charts?id=bubblechart)
    * @experimental
    */
-  export const BubbleChart: typeof import("@vtex/styleguide/lib/BubbleChart");
+  export const BubbleChart: typeof import('@vtex/styleguide/lib/BubbleChart');
 
-/**
+  /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/ButtonPlain)
    */
-  export const ButtonPlain: typeof import("@vtex/styleguide/lib/ButtonPlain");
+  export const ButtonPlain: typeof import('@vtex/styleguide/lib/ButtonPlain');
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Conditions)
    */
-  export const Conditions: typeof import("@vtex/styleguide/lib/Conditions");
+  export const Conditions: typeof import('@vtex/styleguide/lib/Conditions');
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Containers/Divider)
    */
-  export const Divider: typeof import("@vtex/styleguide/lib/Divider");
-
-/**
-   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Modal%20V2)
-   */
-  export const EXPERIMENTAL_Modal: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_Modal");
+  export const Divider: typeof import('@vtex/styleguide/lib/Divider');
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Modal%20V2)
    */
-  export const EXPERIMENTAL_Table: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_Table");
+  export const EXPERIMENTAL_Modal: typeof import('@vtex/styleguide/lib/EXPERIMENTAL_Modal');
 
-  export const EXPERIMENTAL_useCheckboxTree: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useCheckboxTree");
+  /**
+   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Modal%20V2)
+   */
+  export const EXPERIMENTAL_Table: typeof import('@vtex/styleguide/lib/EXPERIMENTAL_Table');
 
-  export const EXPERIMENTAL_useTableMeasures: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useTableMeasures");
+  export const EXPERIMENTAL_useCheckboxTree: typeof import('@vtex/styleguide/lib/EXPERIMENTAL_useCheckboxTree');
 
-  export const EXPERIMENTAL_useTableProportion: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useTableProportion");
+  export const EXPERIMENTAL_useTableMeasures: typeof import('@vtex/styleguide/lib/EXPERIMENTAL_useTableMeasures');
 
-  export const EXPERIMENTAL_useTableSort: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useTableSort");
+  export const EXPERIMENTAL_useTableProportion: typeof import('@vtex/styleguide/lib/EXPERIMENTAL_useTableProportion');
 
-  export const EXPERIMENTAL_useTableVisibility: typeof import("@vtex/styleguide/lib/EXPERIMENTAL_useTableVisibility");
-  export const FloatingActionBar: typeof import("@vtex/styleguide/lib/FloatingActionBar");
-  export const LineChart: typeof import("@vtex/styleguide/lib/LineChart");
-  export const ScatterChart: typeof import("@vtex/styleguide/lib/ScatterChart");
-  export const SelectableCard: typeof import("@vtex/styleguide/lib/SelectableCard");
+  export const EXPERIMENTAL_useTableSort: typeof import('@vtex/styleguide/lib/EXPERIMENTAL_useTableSort');
+
+  export const EXPERIMENTAL_useTableVisibility: typeof import('@vtex/styleguide/lib/EXPERIMENTAL_useTableVisibility');
+  export const FloatingActionBar: typeof import('@vtex/styleguide/lib/FloatingActionBar');
+  export const LineChart: typeof import('@vtex/styleguide/lib/LineChart');
+  export const ScatterChart: typeof import('@vtex/styleguide/lib/ScatterChart');
+  export const SelectableCard: typeof import('@vtex/styleguide/lib/SelectableCard');
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/Layout)
    */
@@ -145,8 +145,6 @@ export const Box: typeof import("@vtex/styleguide/lib/Box");
   export const IconVisibilityOff: import('./Icons').IconVisibilityOff;
   export const IconVisibilityOn: import('./Icons').IconVisibilityOn;
   export const IconWarning: import('./Icons').IconWarning;
-
- 
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/InputCurrency)

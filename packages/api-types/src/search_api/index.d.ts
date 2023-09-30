@@ -1,5 +1,5 @@
-import { Search } from "./search"
+import { Search } from './search';
 
 export type SearchApi = {
-  Search: Search
-}
+  Search: Search;
+};

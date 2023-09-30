@@ -9,7 +9,8 @@
   ],
   "types": "src/index.d.ts",
   "scripts": {
-    "lint": "eslint src/",
+    "lint": "pnpm run lint:prettier",
+    "lint:prettier": "prettier . --write",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
     "@types/react": "16.x",
+    "shared": "workspace:*",
     "typescript": "^3.9.7"
   },
   "publishConfig": {
