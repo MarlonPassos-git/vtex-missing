@@ -1,0 +1,27 @@
+{
+  "name": "@vtex-miss/styleguide-types",
+  "version": "0.1.0",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "src/**",
+    "src/index.d.ts"
+  ],
+  "types": "src/index.d.ts",
+  "scripts": {
+    "lint": "eslint src/",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "@vtex/styleguide": "^9.146.9",
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/react": "16.x",
+    "typescript": "^3.9.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
