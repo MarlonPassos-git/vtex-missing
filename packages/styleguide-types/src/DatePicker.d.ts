@@ -3,9 +3,9 @@ import type { FC } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/DatePicker)
  */
-type DatePicker = FC<Props>;
+type DatePicker = FC<DataPickerProps>;
 
-type Props = {
+type DataPickerProps = {
   /**
    * Locale string ('en-US', 'pt-BR', ...)
    *

@@ -90,7 +90,7 @@ declare module 'vtex.styleguide' {
    */
   export const ButtonWithIcon: import('./ButtonWithIcon').ButtonWithIcon;
 
-  // Icons
+
   export const IconArrowBack: import('./Icons').IconArrowBack;
   export const IconArrowDown: import('./Icons').IconArrowDown;
   export const IconArrowUp: import('./Icons').IconArrowUp;
@@ -150,19 +150,19 @@ declare module 'vtex.styleguide' {
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/InputCurrency)
    */
   export const InputCurrency: import('./InputCurrency').InputCurrency;
-  export type InputCurrencyProps = import('./InputCurrency').Props;
+  export type InputCurrencyProps = import('./InputCurrency').InputCurrency;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/DatePicker)
    */
   export const DatePicker: import('./DatePicker').DatePicker;
-  export type DatePickerProps = import('./DatePicker').Props;
+  export type DatePickerProps = import('./DatePicker').DataPickerProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Display/Alert)
    */
   export const Alert: import('./Alert').Alert;
-  export type AlertProps = import('./Alert').Props;
+  export type AlertProps = import('./Alert').AlertProps;
 
   export const ToastContext: import('./ToastContext').ToastContext;
 
@@ -175,35 +175,35 @@ declare module 'vtex.styleguide' {
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Display/Table)
    */
   export const Table: import('./Table').Table;
-  export type TableProps = import('./Table').Props;
+  export type TableProps = import('./Table').TableProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Notification/Spinner)
    */
   export const Spinner: import('./Spinner').Spinner;
-  export type SpinnerProps = import('./Spinner').Props;
+  export type SpinnerProps = import('./Spinner').SpinnerProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/InputSearch)
    */
   export const InputSearch: import('./InputSearch').InputSearch;
-  export type InputSearchProps = import('./InputSearch').Props;
+  export type InputSearchProps = import('./InputSearch').InputSearchProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Display/Tooltip)
    */
   export const Tooltip: import('./Tooltip').Tooltip;
-  export type TooltipProps = import('./Tooltip').Props;
+  export type TooltipProps = import('./Tooltip').TooltipProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Display/Tag)
    */
   export const Tag: import('./Tag').Tag;
-  export type TagProps = import('./Tag').Props;
+  export type TagProps = import('./Tag').TagProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Overlays/ModalDialog)
    */
   export const ModalDialog: import('./ModalDialog').ModalDialog;
-  export type ModalDialogProps = import('./ModalDialog').Props;
+  export type ModalDialogProps = import('./ModalDialog').ModalDialogProps;
 }

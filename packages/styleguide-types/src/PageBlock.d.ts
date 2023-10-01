@@ -3,9 +3,9 @@ import type { FC, PropsWithChildren } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/PageBlock)
  */
-type PageBlock = FC<PropsWithChildren<Props>>;
+type PageBlock = FC<PropsWithChildren<PageBlockProps>>;
 
-type Props = {
+type PageBlockProps = {
   boxProps?: BoxProps;
   /**
    * @default 'none'

@@ -3,9 +3,9 @@ import type { FC } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Display/Tooltip)
  */
-type Tooltip = FC<Props>;
+type Tooltip = FC<TooltipProps>;
 
-type Props = {
+type TooltipProps = {
   /**
    * Element that will trigger the event
    *

@@ -11,6 +11,7 @@
   "scripts": {
     "lint": "pnpm run lint:prettier",
     "lint:prettier": "prettier . --write",
+    "test": "jest",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {

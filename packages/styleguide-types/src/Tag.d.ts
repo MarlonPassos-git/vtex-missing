@@ -3,9 +3,9 @@ import type { FC } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Display/Tag)
  */
-type Tag = FC<Props>;
+type Tag = FC<TagProps>;
 
-type Props = {
+type TagProps = {
   /**
    * Content of the button
    *

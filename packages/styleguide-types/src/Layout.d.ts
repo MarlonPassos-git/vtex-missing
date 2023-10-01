@@ -3,9 +3,9 @@ import type { FC, PropsWithChildren, ReactNode } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/Layout)
  */
-type Layout = FC<PropsWithChildren<Props>>;
+type Layout = FC<PropsWithChildren<LayoutProps>>;
 
-type Props = {
+type LayoutProps = {
   fullWidth?: boolean;
   pageHeader: ReactNode;
 };

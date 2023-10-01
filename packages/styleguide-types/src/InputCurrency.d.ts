@@ -3,9 +3,9 @@ import type { FC, ChangeEventHandler } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/InputCurrency)
  */
-type InputCurrency = FC<Props>;
+type InputCurrency = FC<InputCurrencyProps>;
 
-type Props = {
+type InputCurrencyProps = {
   /**
    * Currency code in ISO 4217 ('USD', 'BRL', etc.)
    *

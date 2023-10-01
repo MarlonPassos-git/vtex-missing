@@ -1,6 +1,11 @@
 import type { FC, ChangeEventHandler, ReactElement } from 'react';
 
-type Props = {
+/**
+ * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/Layout)
+ */
+type Input = FC<InputProps>;
+
+type InputProps = {
   /**
    * Spec attribute
    */
@@ -212,7 +217,3 @@ type Props = {
   value?: string | number;
 };
 
-/**
- * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/Layout)
- */
-type Input = FC<Props>;

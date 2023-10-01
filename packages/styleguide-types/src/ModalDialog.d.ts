@@ -3,9 +3,9 @@ import type { FC } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Overlays/ModalDialog)
  */
-type ModalDialog = FC<Props>;
+type ModalDialog = FC<ModalDialogProps>;
 
-type Props = {
+type ModalDialogProps = {
   centered?: boolean;
   isOpen?: boolean;
   /**

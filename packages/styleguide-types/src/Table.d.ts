@@ -4,9 +4,9 @@ import type { CustomOnSubmitEvent } from './common';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Display/Table)
  */
-type Table = FC<Props>;
+type Table = FC<TableProps>;
 
-type Props = {
+type TableProps = {
   /**
    * Array of objects with data
    *

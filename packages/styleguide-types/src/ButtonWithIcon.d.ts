@@ -4,12 +4,12 @@ import type { Props as ButtonProps } from './Button';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/ButtonWithIcon)
  */
-type ButtonWithIcon = FC<Props>;
+type ButtonWithIcon = FC<ButtonWithIconProps>;
 
 /**
  * @todo add description of props
  */
-type Props = Omit<ButtonProps, 'icon'> & {
+type ButtonWithIconProps = Omit<ButtonProps, 'icon'> & {
   icon: ReactNode;
   /**
    * @default 'left'

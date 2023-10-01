@@ -4,9 +4,9 @@ import { CustomOnSubmitEvent } from './common';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/InputSearch)
  */
-type InputSearch = FC<Props>;
+type InputSearch = FC<InputSearchProps>;
 
-type Props = {
+type InputSearchProps = {
   disabled?: boolean;
   onChange?: ChangeEventHandler;
   onClear?: () => void;

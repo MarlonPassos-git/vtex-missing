@@ -3,9 +3,9 @@ import type { FC } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Notification/Alert)
  */
-type Alert = FC<Props>;
+type Alert = FC<AlertProps>;
 
-type Props = {
+type AlertProps = {
   /**
    * Content of the alert
    *

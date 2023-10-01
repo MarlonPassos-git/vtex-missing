@@ -1,13 +1,15 @@
 import type { FC, PropsWithChildren, ReactNode } from 'react';
 
-type Props = {
+
+
+/**
+ * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/PageHeader)
+ */
+type PageHeader = FC<PropsWithChildren<PageHeaderProps>>;
+
+type PageHeaderProps = {
   title: ReactNode;
   linkLabel?: ReactNode;
   onLinkClick?: () => void;
   subtitle?: ReactNode;
 };
-
-/**
- * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/PageHeader)
- */
-type PageHeader = FC<PropsWithChildren<Props>>;

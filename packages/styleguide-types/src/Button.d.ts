@@ -3,12 +3,12 @@ import type { FC, PropsWithChildren } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Button)
  */
-type Button = FC<PropsWithChildren<Props>>;
+type Button = FC<PropsWithChildren<ButtonProps>>;
 
 /**
  * @todo add description of props
  */
-type Props = {
+type ButtonProps = {
   /**
    * @deprecated
    * @default false

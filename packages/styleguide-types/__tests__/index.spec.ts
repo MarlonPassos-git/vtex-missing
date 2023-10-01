@@ -1,10 +1,10 @@
-import type { Props } from '../src/Alert';
+import type { AlertProps } from '../src/Alert';
 import { testType } from './test-utils';
 
 // @dts-jest:group Alert
 {
   // @dts-jest:pass:snap
-  testType<Props>({
+  testType<AlertProps>({
     children: 'children',
     type: 'success',
     action: {

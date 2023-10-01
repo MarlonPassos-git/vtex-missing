@@ -3,9 +3,9 @@ import type { FC } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Notification/ToastProvider)
  */
-type ToastProvider = FC<Props>;
+type ToastProvider = FC<ToastProviderProps>;
 
-type Props = {
+type ToastProviderProps = {
   /**
    * @default 'parent'
    */

@@ -3,9 +3,9 @@ import type { FC } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Notification/Spinner)
  */
-type Spinner = FC<Props>;
+type Spinner = FC<SpinnerProps>;
 
-type Props = {
+type SpinnerProps = {
   /**
    * Sets the display to block
    *
