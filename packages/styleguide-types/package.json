@@ -20,7 +20,10 @@
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
     "@types/react": "16.x",
+    "dts-jest": "24.x",
+    "jest": "27.x",
     "shared": "workspace:*",
+    "ts-jest": "27",
     "typescript": "^3.9.7"
   },
   "publishConfig": {
