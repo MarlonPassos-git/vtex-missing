@@ -1,5 +1,11 @@
 # @vtex-miss/styleguide-types
 
+## 0.3.0
+
+### Minor Changes
+
+- fc312fd: export Componente props from IconProps ButtonWithIconProps ButtonProps PageBlockProps InputProps PageHeaderProps LayoutProps
+
 ## 0.2.0
 
 ### Minor Changes

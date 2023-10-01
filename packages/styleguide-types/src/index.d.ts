@@ -64,31 +64,37 @@ declare module 'vtex.styleguide' {
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/Layout)
    */
   export const Layout: import('./Layout').Layout;
+  export type LayoutProps = import('./Layout').LayoutProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/PageHeader)
    */
   export const PageHeader: import('./PageHeader').PageHeader;
+  export type PageHeaderProps = import('./PageHeader').PageHeaderProps;
 
   /**
    *  @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/Layout)
    **/
   export const Input: import('./Input').Input;
+  export type InputProps = import('./Input').InputProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Admin%20structure/PageBlock)
    */
   export const PageBlock: import('./PageBlock').PageBlock;
+  export type PageBlockProps = import('./PageBlock').PageBlockProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Button)
    */
   export const Button: import('./Button').Button;
+  export type ButtonProps = import('./Button').ButtonProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/ButtonWithIcon)
    */
   export const ButtonWithIcon: import('./ButtonWithIcon').ButtonWithIcon;
+  export type ButtonWithIconProps = import('./ButtonWithIcon').ButtonWithIconProps;
 
 
   export const IconArrowBack: import('./Icons').IconArrowBack;
@@ -145,6 +151,7 @@ declare module 'vtex.styleguide' {
   export const IconVisibilityOff: import('./Icons').IconVisibilityOff;
   export const IconVisibilityOn: import('./Icons').IconVisibilityOn;
   export const IconWarning: import('./Icons').IconWarning;
+  export type IconProps = import('./Icons').IconProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/InputCurrency)
