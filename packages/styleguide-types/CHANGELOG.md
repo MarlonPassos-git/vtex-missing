@@ -1,5 +1,12 @@
 # @vtex-miss/styleguide-types
 
+## 0.4.0
+
+### Minor Changes
+
+- 83e92ef: export ToastContextState
+- 08d9c03: use my implemetation to AutoCompleInput and export AutoCompleInputProps
+
 ## 0.3.0
 
 ### Minor Changes
