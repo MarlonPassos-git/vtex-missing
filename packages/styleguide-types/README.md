@@ -20,3 +20,19 @@ How this lib is only types, you need to guarantee that the lib `vtex.styleguide@
   }
 }
 ```
+
+includes this type in your tsconfig to overwrite the natives types 
+
+```json
+// tsconfig.json
+{
+  "compilerOptions": {
+    // ...
+    "include": [
+      // ... 
+      "node_modules/@vtex-miss/styleguide-types/src/index.d.ts"
+    ]
+  }
+}
+```
+```
