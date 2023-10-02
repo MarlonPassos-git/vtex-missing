@@ -3,7 +3,8 @@ declare module 'vtex.styleguide' {
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/AutocompleteInput)
    */
-  export const AutocompleteInput: typeof import('@vtex/styleguide/lib/AutocompleteInput');
+  export const AutocompleteInput: import("./AutocompleteInput").AutocompleteInput;
+  export type AutocompleteInputProps = import("./AutocompleteInput").AutocompleteInputProps;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/%F0%9F%91%BB%20Experimental/Charts?id=barchart)
