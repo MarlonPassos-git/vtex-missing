@@ -18,6 +18,11 @@
     "@vtex/styleguide": "^9.146.9",
     "react": "16.x"
   },
+  "author": {
+    "email": "1marlonpassos@gmail.com",
+    "name": "Marlon Passos",
+    "url": "https://github.com/MarlonPassos-git"
+  },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
     "@types/react": "16.x",
