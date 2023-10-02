@@ -173,6 +173,7 @@ declare module 'vtex.styleguide' {
   export type AlertProps = import('./Alert').AlertProps;
 
   export const ToastContext: import('./ToastContext').ToastContext;
+  export type ToastContextState = import('./ToastContext').ToastContextState;
 
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Notification/ToastProvider)

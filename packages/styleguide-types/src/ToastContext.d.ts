@@ -28,10 +28,10 @@ type ShowToastProps = {
   dismissable?: boolean;
 };
 
-type ContextType = {
+type ToastContextState = {
   showToast: (props: ShowToastProps) => void;
   hideToast: () => void;
   toastState: unknown;
 };
 
-type ToastContext = React.Context<ContextType>;
+type ToastContext = React.Context<ToastContextState>;
