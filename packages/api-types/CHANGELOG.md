@@ -1,5 +1,11 @@
 # @vtex-missing/api-types
 
+## 0.3.0
+
+### Minor Changes
+
+- 230b679: add types of Catalog api / Collection Beta / Get All Collections
+
 ## 0.2.0
 
 ### Minor Changes
