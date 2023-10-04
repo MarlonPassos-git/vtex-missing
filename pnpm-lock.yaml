@@ -21,12 +21,6 @@ importers:
         specifier: latest
         version: 1.10.14
 
-  exemples/app:
-    devDependencies:
-      '@vtex-miss/styleguide-types':
-        specifier: workspace:*
-        version: link:../../packages/styleguide-types
-
   packages/api-sdk:
     dependencies:
       xfetch-js:
