@@ -1,5 +1,6 @@
 import { SdkBase, SdkBaseOptions } from "../utils/base"
 import { GetAllCollections } from "@vtex-miss/api-types/src/catalog_api/collection_beta/get_all_collections"
+import { searchParams } from "../utils/searchParams";
 
 type GetAllCollectionsParams = {
   page?: number;
@@ -20,8 +21,7 @@ export class CollectionBeta extends SdkBase {
    * 
    */
   getAllCollections(params?: GetAllCollectionsParams) {
-    const base = this.searchParams(params)
-    const url = `${this.routes.getAllCollections}${base}`
+    const url = `${this.routes.getAllCollections}${searchParams(params)}`;
 
     return this.fetch.get(url, { 
       // @ts-ignore
@@ -29,11 +29,13 @@ export class CollectionBeta extends SdkBase {
     }).json<GetAllCollections>(_=> _)
   }
 
-  private get routes() { 
-    const _base = `${this.baseUrl}/api/catalog/pvt/collection`
+  private get routes() {
+    const _base = `${this.baseUrl}/api/catalog_system/pvt/collection`;
 
     return {
-      getAllCollections: `${_base}/collections`
-    }
+      getAllCollections: `${_base}/search`,
+    };
   }
 }
+
+export const collectionBeta = new CollectionBeta();
