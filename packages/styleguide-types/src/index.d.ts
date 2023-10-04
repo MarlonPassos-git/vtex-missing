@@ -215,4 +215,10 @@ declare module 'vtex.styleguide' {
    */
   export const ModalDialog: import('./ModalDialog').ModalDialog;
   export type ModalDialogProps = import('./ModalDialog').ModalDialogProps;
+
+  /**
+   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Dropdown)
+  */
+ export const Dropdown: import('./Dropdown').Dropdown;
+ export type DropdownProps = import('./Dropdown').DropdownProps;
 }
