@@ -18,6 +18,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - uses: pnpm/action-setup@0609f0983b7a228f052f81ef4c3d6510cae254ad
+        with: 
+          version: 6
       - name: Install Dependencies
         run: pnpm i
       - name: Run Tests
