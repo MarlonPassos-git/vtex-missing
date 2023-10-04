@@ -21,6 +21,17 @@
   "dependencies": {
     "xfetch-js": "^0.6.0"
   },
+  "sideEffects": false,
+  "author": {
+    "email": "1marlonpassos@gmail.com",
+    "name": "Marlon Passos",
+    "url": "https://github.com/MarlonPassos-git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git:github.com/MarlonPassos-git/vtex-missing.git",
+    "directory": "packages/api-sdk"
+  },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
     "@types/jest": "^29.5.5",
