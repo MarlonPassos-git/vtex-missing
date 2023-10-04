@@ -1,5 +1,11 @@
 # @vtex-miss/styleguide-types
 
+## 0.5.0
+
+### Minor Changes
+
+- 2ad8f56: add types from Dropdown and DropdownProps
+
 ## 0.4.0
 
 ### Minor Changes
