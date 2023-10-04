@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Alert testType<Props>({
-      children: "children",
-      type: "success",
+exports[`Alert testType<AlertProps>({
+      children: 'children',
+      type: 'success',
       action: {
-        label: "label",
-        onClick: () => { }
+        label: 'label',
+        onClick: () => {}
       },
       autoClose: 1000,
-      closeIconLabel: "closeIconLabel",
+      closeIconLabel: 'closeIconLabel',
       focusOnOpen: true,
-      onClose: () => { } 
-    }) (type) should match snapshot 1`] = `"Props"`;
+      onClose: () => {}
+    }) (type) should match snapshot 1`] = `"AlertProps"`;
