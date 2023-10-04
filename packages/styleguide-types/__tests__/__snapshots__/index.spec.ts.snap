@@ -12,3 +12,18 @@ exports[`Alert testType<AlertProps>({
       focusOnOpen: true,
       onClose: () => {}
     }) (type) should match snapshot 1`] = `"AlertProps"`;
+
+exports[`Dropdown testType<DropdownProps>({
+      label:"Disabled",
+        disabled: true,
+        options: [
+        { value: 'visa', label: 'Visa' },
+        { value: 'mastercard', label: 'Mastercard' },
+        { value: 'elo', label: 'Elo' },
+        { value: 'diners', label: 'Diners' },
+        { value: 'giftcard', label: 'Gift Card' },
+        { value: 'amex', label: 'American Express' },
+      ],
+        value: 'mastercard',
+        onChange: (_, v) => {}
+    }) (type) should match snapshot 1`] = `"DropdownProps"`;
