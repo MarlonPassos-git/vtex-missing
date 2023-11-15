@@ -1,0 +1,32 @@
+{
+  "name": "@vtex-miss/jest-vtex-io",
+  "version": "0.1.0",
+  "description": "",
+  "main": "react-config.cjs",
+  "scripts": {
+    "lint": "pnpm run lint:prettier",
+    "lint:prettier": "prettier . --write"
+  },
+  "type": "commonjs",
+  "exports": {
+    "./preset/react": "./presets/react.js",
+    "./preset/node": "./presets/node.js",
+    "./preset/common": "./presets/common.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/react-testing": "3",
+    "@testing-library/jest-dom": "5.17",
+    "@testing-library/react": "12",
+    "@types/jest": "27",
+    "identity-obj-proxy": "3",
+    "jest": "27",
+    "jest-transform-graphql": "2.1.0",
+    "ts-jest": "27"
+  },
+  "devDependencies": {
+    "shared": "workspace:*"
+  }
+}
