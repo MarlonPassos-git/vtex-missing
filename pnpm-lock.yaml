@@ -84,6 +84,9 @@ importers:
       '@types/jest':
         specifier: '27'
         version: 27.5.2
+      graphql-tag:
+        specifier: ^2.12.6
+        version: 2.12.6(graphql@14.7.0)
       identity-obj-proxy:
         specifier: '3'
         version: 3.0.0

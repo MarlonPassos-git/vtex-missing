@@ -21,6 +21,7 @@
     "@testing-library/jest-dom": "5.17",
     "@testing-library/react": "12",
     "@types/jest": "27",
+    "graphql-tag": "^2.12.6",
     "identity-obj-proxy": "3",
     "jest": "27",
     "jest-transform-graphql": "2.1.0",
