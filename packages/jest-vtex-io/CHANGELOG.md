@@ -1,5 +1,15 @@
 # @vtex-miss/jest-vtex-io
 
+## 0.3.0
+
+### Minor Changes
+
+- df7f900: add utility libs: msw and @testing-library/react-hooks
+
+### Patch Changes
+
+- 129f543: fix problem with fetch
+
 ## 0.2.1
 
 ### Patch Changes
