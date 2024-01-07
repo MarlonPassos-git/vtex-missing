@@ -1,6 +1,6 @@
 {
   "name": "@vtex-miss/platform-types",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "sideEffects": false,
   "license": "MIT",
   "files": [

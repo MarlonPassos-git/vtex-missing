@@ -1,5 +1,12 @@
 # @vtex-miss/styleguide-types
 
+## 0.6.0
+
+### Minor Changes
+
+- a8d4373: inproves Table typing about LineAction
+- a5dfc3a: add types from EmptyState and EmptyStatepProps
+
 ## 0.5.0
 
 ### Minor Changes
