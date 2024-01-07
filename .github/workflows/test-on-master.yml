@@ -4,13 +4,13 @@ on:
   push:
     branches:
       - main
-      
+
 jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12, 14, 16, 18]
+        node-version: [18, 20]
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - uses: pnpm/action-setup@0609f0983b7a228f052f81ef4c3d6510cae254ad
-        with: 
+        with:
           version: 6
       - name: Install Dependencies
         run: pnpm i
