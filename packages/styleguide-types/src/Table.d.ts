@@ -93,9 +93,14 @@ type TableProps = {
    * Line actions column
    */
   lineActions?: {
-    label: () => string;
-    isDangerous: boolean;
-    onClick: () => void;
+    label: ((params: LineActionParams) => string) | (() => string)
+    /**
+     * if true, the text will be red
+     * 
+     * @default false
+     */
+    isDangerous?: boolean;
+    onClick: ((params: LineActionParams) => void) | (() => void)
   }[];
 
   /**
@@ -279,3 +284,8 @@ type inputSearchObject = {
   onClear: () => void;
   onSubmit: (e: CustomOnSubmitEvent) => void;
 };
+
+
+type LineActionParams = {
+  rowData: Record<string, unknown>;
+} 
