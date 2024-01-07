@@ -219,6 +219,12 @@ declare module 'vtex.styleguide' {
   /**
    * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Dropdown)
   */
- export const Dropdown: import('./Dropdown').Dropdown;
- export type DropdownProps = import('./Dropdown').DropdownProps;
+  export const Dropdown: import('./Dropdown').Dropdown;
+  export type DropdownProps = import('./Dropdown').DropdownProps;
+
+  /**
+   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Display/EmptyState)
+  */
+  export const EmptyState: import('./EmptyState').EmptyState;
+  export type EmptyStateProps = import('./EmptyState').EmptyStateProps;
 }
