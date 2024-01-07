@@ -20,12 +20,15 @@
     "@apollo/react-testing": "3",
     "@testing-library/jest-dom": "5.17",
     "@testing-library/react": "12",
+    "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "27",
     "graphql-tag": "^2.12.6",
     "identity-obj-proxy": "3",
     "jest": "27",
     "jest-transform-graphql": "2.1.0",
-    "ts-jest": "27"
+    "msw": "0.35",
+    "ts-jest": "27",
+    "whatwg-fetch": "^3.6.20"
   },
   "devDependencies": {
     "shared": "workspace:*"
