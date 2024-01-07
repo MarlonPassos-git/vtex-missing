@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert testType<StorefrontFunctionComponent>(() => <div>children</div>) (type) should match snapshot 1`] = `"StorefrontFunctionComponent<Record<string, unknown>>"`;
+
+exports[`Dropdown testType<MasterDataV2Schema>({
+      title: "Basic information of SKU",
+      properties: {
+        "name": { "type": "string" }
+      },
+      required: ["name"]
+    }) (type) should match snapshot 1`] = `"MasterDataV2Schema"`;

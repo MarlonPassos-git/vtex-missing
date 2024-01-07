@@ -1,0 +1,36 @@
+{
+  "name": "@vtex-miss/platform-types",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "src/**",
+    "src/index.d.ts"
+  ],
+  "types": "src/index.d.ts",
+  "scripts": {
+    "lint": "pnpm run lint:prettier",
+    "lint:prettier": "prettier . --write",
+    "test": "jest",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "@types/react": "16.x"
+  },
+  "author": {
+    "email": "1marlonpassos@gmail.com",
+    "name": "Marlon Passos",
+    "url": "https://github.com/MarlonPassos-git"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.3",
+    "dts-jest": "24.x",
+    "jest": "27.x",
+    "shared": "workspace:*",
+    "ts-jest": "27",
+    "typescript": "^3.9.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

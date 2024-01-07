@@ -104,6 +104,31 @@ importers:
         specifier: workspace:*
         version: link:../shared
 
+  packages/platform-types:
+    dependencies:
+      '@types/react':
+        specifier: 16.x
+        version: 16.14.47
+    devDependencies:
+      '@tsconfig/recommended':
+        specifier: ^1.0.3
+        version: 1.0.3
+      dts-jest:
+        specifier: 24.x
+        version: 24.0.0(jest@27.5.1)(typescript@3.9.10)
+      jest:
+        specifier: 27.x
+        version: 27.5.1
+      shared:
+        specifier: workspace:*
+        version: link:../shared
+      ts-jest:
+        specifier: '27'
+        version: 27.1.5(@babel/core@7.23.0)(@types/jest@27.5.2)(jest@27.5.1)(typescript@3.9.10)
+      typescript:
+        specifier: ^3.9.7
+        version: 3.9.10
+
   packages/shared:
     devDependencies:
       prettier:
