@@ -13,8 +13,11 @@
     "./preset/node": "./presets/node.js",
     "./preset/common": "./presets/common.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": {
+    "email": "1marlonpassos@gmail.com",
+    "name": "Marlon Passos",
+    "url": "https://github.com/MarlonPassos-git"
+  },
   "license": "ISC",
   "dependencies": {
     "@apollo/react-testing": "3",
@@ -32,5 +35,13 @@
   },
   "devDependencies": {
     "shared": "workspace:*"
-  }
+  },
+  "keywords": [
+    "vtex",
+    "vtex io",
+    "vtex misses types",
+    "test",
+    "jest",
+    "setup test"
+  ]
 }

@@ -34,5 +34,14 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "vtex",
+    "vtex io",
+    "styleguide",
+    "style guide",
+    "react",
+    "types",
+    "typescript"
+  ]
 }
