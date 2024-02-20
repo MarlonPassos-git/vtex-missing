@@ -1,4 +1,4 @@
-export type MasterDataV2Schema = {
+export type MasterDataV2Schema<T extends string = string> = {
   title?: string
   /**
    * Use the property v-cache to disable default caching.
@@ -11,21 +11,21 @@ export type MasterDataV2Schema = {
    *
    * @see https://developers.vtex.com/docs/guides/starting-to-work-on-master-data-with-json-schema#default-fields
    */
-  'v-default-fields'?: string[]
+  'v-default-fields'?: T[]
   /**
    * Use the property v-indexed to set up indexed fields. You must add the field to the properties to generate the indexer configuration with the right type.
    *
    * @see https://developers.vtex.com/docs/guides/starting-to-work-on-master-data-with-json-schema#indexing-fields
    */
-  'v-indexed'?: string[]
-  required?: string[]
+  'v-indexed'?: T[]
+  required?: T[]
   /**
    * Use the property v-security to set up which fields are public (request without user authentication).
    *
    * @see https://developers.vtex.com/docs/guides/starting-to-work-on-master-data-with-json-schema#enabling-public-fields
    */
-  'v-security'?: VSecurity
-  properties: Record<string, Property>
+  'v-security'?: VSecurity<T>
+  properties: Record<T, Property>
   'v-immediate-indexing'?: boolean
   'v-triggers'?: VTrigger[]
   /**
@@ -47,12 +47,12 @@ type VTrigger = {
   }
 }
 
-type VSecurity = {
+type VSecurity<T extends string = string> = {
   allowGetAll?: boolean
-  publicRead?: string[]
-  publicWrite?: string[]
+  publicRead?: T[]
+  publicWrite?: T[]
   publicJsonSchema?: boolean
-  publicFilter?: string[]
+  publicFilter?: T[]
 }
 
 type PropertyType = 'string' | 'number' | 'boolean' | 'array' | 'object' | 'null' | "integer"
