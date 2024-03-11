@@ -1,5 +1,11 @@
 # @vtex-missing/api-types
 
+## 0.4.0
+
+### Minor Changes
+
+- 487fcc8: can pass a generic for config all base fields in masterDataV2Schema
+
 ## 0.3.0
 
 ### Minor Changes
