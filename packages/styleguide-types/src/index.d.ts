@@ -233,4 +233,10 @@ declare module 'vtex.styleguide' {
    */
   export const Textarea: import('./Textarea').Textarea;
   export type TextareaProps = import('./Textarea').TextareaProps;
+
+  /**
+   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Toggle)
+   */
+  export const Toggle: import('./Toggle').Toggle;
+  export type ToggleProps = import('./Toggle').ToggleProps;
 }
