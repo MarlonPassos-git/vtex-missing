@@ -227,4 +227,10 @@ declare module 'vtex.styleguide' {
   */
   export const EmptyState: import('./EmptyState').EmptyState;
   export type EmptyStateProps = import('./EmptyState').EmptyStateProps;
+
+  /**
+   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Textarea)
+   */
+  export const Textarea: import('./Textarea').Textarea;
+  export type TextareaProps = import('./Textarea').TextareaProps;
 }
