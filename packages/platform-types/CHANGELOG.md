@@ -1,5 +1,11 @@
 # @vtex-miss/platform-types
 
+## 0.3.0
+
+### Minor Changes
+
+- bc1b818: improve types from MasterDataV2Schema and add types of PageComponent
+
 ## 0.2.0
 
 ### Minor Changes
