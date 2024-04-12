@@ -11,17 +11,17 @@ export type MasterDataV2Schema<T extends string = string> = {
    *
    * @see https://developers.vtex.com/docs/guides/starting-to-work-on-master-data-with-json-schema#default-fields
    */
-  'v-default-fields'?: T[]
+  'v-default-fields'?: (T | string)[]
   /**
    * Use the property v-indexed to set up indexed fields. You must add the field to the properties to generate the indexer configuration with the right type.
    *
    * @see https://developers.vtex.com/docs/guides/starting-to-work-on-master-data-with-json-schema#indexing-fields
    */
-  'v-indexed'?: T[]
+  'v-indexed'?: (T | string)[]
   /**
    * 
    */
-  required?: T[]
+  required?: (T | string)[]
   /**
    * Use the property v-security to set up which fields are public (request without user authentication).
    *
@@ -188,7 +188,20 @@ type Property = {
   format?: PropertyFormat
   maxLength?: number
   enum?: string[]
+  description?: any
   required?: boolean
   items?: Property
+  /**
+   * @see https://json-schema.org/understanding-json-schema/reference/string#regexp
+   */
+  pattern?: string
+  /**
+   * @see https://json-schema.org/understanding-json-schema/reference/string#built-in-formats
+   */
+  format?: "date-time" | "date" | "time" | "duration" | "email" | "idn-hostname" | "ipv4" | "ipv6" | "uuid" | "uri" | "uri-reference" | "iri" | "iri-reference" | "uri-template" | "json-pointer" | "relative-json-pointer" | "regex"
+  description?: string
+  link?: string
+  minimum?: number
+
 }
 
