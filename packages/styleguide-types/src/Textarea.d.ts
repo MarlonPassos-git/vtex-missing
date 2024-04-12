@@ -87,17 +87,17 @@ type TextareaProps = {
     /**
      * Function called when the textarea loses focus
      */
-    onBlur?: () => void;
+    onBlur?: (event: React.FocusEvent<HTMLTextAreaElement>) => void;
 
     /**
      * Function called when the textarea's value changes
      */
-    onChange?: () => void;
+    onChange?: (event: React.ChangeEvent<HTMLTextAreaElement>) => void;
 
     /**
      * Function called when the textarea gains focus
      */
-    onFocus?: () => void;
+    onFocus?: (event: React.FocusEvent<HTMLTextAreaElement>) => void;
 
     /**
      * Placeholder text for the textarea
