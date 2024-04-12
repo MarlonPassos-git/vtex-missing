@@ -1,5 +1,15 @@
 # @vtex-miss/styleguide-types
 
+## 0.8.0
+
+### Minor Changes
+
+- f01b158: aadd types from Checkbox and CheckboxProps
+
+### Patch Changes
+
+- 33f958b: about TextArea fix on function parameters
+
 ## 0.7.0
 
 ### Minor Changes
