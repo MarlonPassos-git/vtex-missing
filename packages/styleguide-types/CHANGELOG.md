@@ -1,5 +1,11 @@
 # @vtex-miss/styleguide-types
 
+## 0.7.0
+
+### Minor Changes
+
+- 0652dd8: add types from Textarea and TextAreaProps
+
 ## 0.6.0
 
 ### Minor Changes
