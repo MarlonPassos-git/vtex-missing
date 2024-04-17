@@ -239,4 +239,10 @@ declare module 'vtex.styleguide' {
    */
   export const Toggle: import('./Toggle').Toggle;
   export type ToggleProps = import('./Toggle').ToggleProps;
+
+  /**
+   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Conditions)
+   */
+  export const Conditions: import('./Conditions').Conditions;
+  export type ConditionsProps = import('./Conditions').ConditionsProps;
 }
