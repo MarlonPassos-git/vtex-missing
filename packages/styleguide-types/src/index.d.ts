@@ -245,4 +245,10 @@ declare module 'vtex.styleguide' {
    */
   export const Conditions: import('./Conditions').Conditions;
   export type ConditionsProps = import('./Conditions').ConditionsProps;
+
+  /**
+   * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/NumericStepper)
+   */
+  export const NumericStepper: import('./NumericStepper').NumericStepper;
+  export type NumericStepperProps = import('./NumericStepper').NumericStepperProps;
 }
