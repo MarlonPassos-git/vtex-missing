@@ -3,9 +3,9 @@ import type { FC } from 'react';
 /**
  * @see [oficial documentation](https://styleguide.vtex.com/#/Components/Forms/Toggle)
  */
-type Checkbox = FC<CheckboxProps>;
+type Toggle = FC<ToggleProps>;
 
-type CheckboxProps = {
+type ToggleProps = {
   /**
    * Indicates whether the checkbox is checked
    * @default false
