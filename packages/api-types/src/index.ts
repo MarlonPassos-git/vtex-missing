@@ -1,11 +1,12 @@
 import { fetchTree, fetchContentByPath } from "./services/github"
+import { isOpenSchemaFile } from "./utils/isFileOpenSchema"
 
 async function main() {
     const { tree } = await fetchTree()
-    
-    console.log(tree)
+    const openSchemas = tree.filter(isOpenSchemaFile) 
+    console.log(openSchemas)
 
-    const [{ path }] = tree
+    const [{ path }] = openSchemas
 
     const content = await fetchContentByPath(path)
 
