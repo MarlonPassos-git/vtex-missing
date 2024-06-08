@@ -8,12 +8,8 @@ type Content = RestEndpointMethodTypes["git"]["getTree"]["response"]["data"]["tr
 export async function downloadAllVtexOpenSchemaInGithub() {
     const { tree } = await fetchTree()
     const openOpiTrees = filterTrees(tree)
-
-    console.log("Downloading OpenAPI schemas")
     const only5item = openOpiTrees.slice(0, openOpiTrees.length - 1)
-    await pMap(only5item, fetchContentCreateFile, { concurrency: 5 })
-
-    console.log("All OpenAPI schemas downloaded")
+    return pMap(only5item, fetchContentCreateFile, { concurrency: 5 })
 }
 
 async function fetchContentCreateFile(openSchemas: Content) {
@@ -53,12 +49,17 @@ async function fetchContentCreateFile(openSchemas: Content) {
         }
     }
 
-    createFileFrontBase64({
+    const filePath = createFileFrontBase64({
         encoding,
         content: contentFile,
         name: content.name
     })
 
     console.log(`${openSchemas.path} downloaded and file created`)
+
+    return {
+        filePath,
+        name: content.name
+    }
 } 
 
