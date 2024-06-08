@@ -9,17 +9,20 @@
   ],
   "types": "src/index.d.ts",
   "scripts": {
+    "dev:watch": "tsx watch ./src/index.ts",
     "lint": "pnpm run lint:prettier",
     "lint:prettier": "prettier . --write",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "openapi-typescript": "7.0.0-rc.0"
+    "openapi-typescript": "7.0.0-rc.0",
+    "tsx": "^4.13.3",
+    "typescript": "^5.4.5"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "typescript": "^5.4.5"
+    "@octokit/rest": "^20.1.1"
   }
 }

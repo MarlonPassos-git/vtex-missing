@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "ESNext", // or "NodeNext"
+    "target": "ESNext",
     "moduleResolution": "Bundler", // or "NodeNext"
     "noUncheckedIndexedAccess": true
   }

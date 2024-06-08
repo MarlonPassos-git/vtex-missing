@@ -1,3 +1,8 @@
-import { paths } from "./schema"
+import { fetchTree, fetchContentByPath } from "./services/github"
 
-const a: paths["/manifest"]["get"]["responses"]["200"]["content"]["application/json"]
+async function main() {
+    const { tree } = await fetchTree()
+}
+
+
+main()
