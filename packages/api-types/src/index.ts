@@ -3,6 +3,8 @@ import openapiTS, { astToString } from "openapi-typescript";
 import fs from "node:fs";
 import path from "node:path";
 import { URL } from "url";
+// import { OrdersAPI_PIIversion } from "../generated"
+
 
 /**
  * @todo Currently there are some with these files and openapi-ts lib. In the 
@@ -15,6 +17,20 @@ function removeErrorsFiles(list: FileToTs[]) {
 }
 
 const DIST_DIRECTORY_NAME = "generated";
+
+async function createIndexDTS(files: FileToTs[]) {
+    const dir = path.resolve(__dirname, `../${DIST_DIRECTORY_NAME}`);
+    const filePath = path.join(dir, 'index.d.ts');
+    let contents = '';
+
+    files.forEach(({ tsFileName }) => {
+        const name = tsFileName.replace('.d.ts', '');
+        contents += `export * as ${name} from "./${name}"\n`;
+    });
+
+    await fs.promises.writeFile(filePath, contents);
+    console.log(`File index.d.ts created`);
+}
 
 function setupDist() {
     const dist = path.resolve(__dirname, `../${DIST_DIRECTORY_NAME}`);
@@ -42,7 +58,11 @@ function  fileToTs({filePath, name}: File): FileToTs {
         .replace(".json", ".d.ts")
         .replace("VTEX - ", "")
         .replaceAll(" ", "")
-
+        .replaceAll("-", "_")
+        .replaceAll("&", "And")
+        .replaceAll("(", "_")
+        .replaceAll(")", "")
+        .replace(/(?<=[0-9])\.(?=[0-9])/g, "_")
 
     return {
         openSchemaFilePath: new URL(`file://${filePath}`),
@@ -70,6 +90,7 @@ async function main() {
         console.log(`File ${tsFileName} created`);
     }
 
+    await createIndexDTS(c);
     console.log("Finished");
 }
 
