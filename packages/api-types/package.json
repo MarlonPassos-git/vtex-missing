@@ -9,13 +9,15 @@
   ],
   "types": "src/index.d.ts",
   "scripts": {
-    "dev:watch": "tsx watch ./src/index.ts",
+    "dev:watch": "tsx watch --env-file=.env ./src/index.ts",
     "lint": "pnpm run lint:prettier",
     "lint:prettier": "prettier . --write",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "openapi-typescript": "7.0.0-rc.0",
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/node": "^20.14.2",
+    "shared": "workspace:*",
     "tsx": "^4.13.3",
     "typescript": "^5.4.5"
   },
@@ -23,6 +25,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@octokit/rest": "^20.1.1"
+    "@octokit/rest": "^20.1.1",
+    "openapi-typescript": "7.0.0-rc.0",
+    "p-map": "^7.0.2",
+    "zod": "^3.23.8"
   }
 }

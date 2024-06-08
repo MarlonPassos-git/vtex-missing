@@ -3,6 +3,8 @@
     "module": "ESNext", // or "NodeNext"
     "target": "ESNext",
     "moduleResolution": "Bundler", // or "NodeNext"
-    "noUncheckedIndexedAccess": true
-  }
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+  },
+  "extends": "@tsconfig/recommended/tsconfig.json"
 }
