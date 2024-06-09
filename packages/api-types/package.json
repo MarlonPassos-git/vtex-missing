@@ -20,15 +20,13 @@
     "@types/node": "20.14.2",
     "shared": "workspace:*",
     "tsx": "^4.13.3",
-    "typescript": "^5.4.5"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
+    "typescript": "^5.4.5",
     "@octokit/rest": "^20.1.1",
     "openapi-typescript": "7.0.0-rc.0",
     "p-map": "^7.0.2",
     "zod": "^3.23.8"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

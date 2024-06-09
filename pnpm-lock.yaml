@@ -59,26 +59,22 @@ importers:
         version: 5.2.2
 
   packages/api-types:
-    dependencies:
+    devDependencies:
       '@octokit/rest':
         specifier: ^20.1.1
         version: 20.1.1
-      openapi-typescript:
-        specifier: 7.0.0-rc.0
-        version: 7.0.0-rc.0(typescript@5.4.5)
-      p-map:
-        specifier: ^7.0.2
-        version: 7.0.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.23.8
-    devDependencies:
       '@tsconfig/recommended':
         specifier: ^1.0.3
         version: 1.0.3
       '@types/node':
         specifier: 20.14.2
         version: 20.14.2
+      openapi-typescript:
+        specifier: 7.0.0-rc.0
+        version: 7.0.0-rc.0(typescript@5.4.5)
+      p-map:
+        specifier: ^7.0.2
+        version: 7.0.2
       shared:
         specifier: workspace:*
         version: link:../shared
@@ -88,6 +84,9 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
+      zod:
+        specifier: ^3.23.8
+        version: 3.23.8
 
   packages/jest-vtex-io:
     dependencies:
