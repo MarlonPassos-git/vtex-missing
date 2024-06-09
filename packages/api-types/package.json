@@ -9,7 +9,8 @@
   "types": "./generated/index.d.ts",
   "scripts": {
     "dev:watch": "tsx watch --env-file=.env ./src/index.ts",
-    "build": "tsx --env-file=.env ./src/index.ts",
+    "build": "echo 'Only local build is allowed. Use `pnpm run build:local` instead of `pnpm run build`'",
+    "build:local": "tsx --env-file=.env ./src/index.ts",
     "lint": "pnpm run lint:prettier",
     "lint:prettier": "prettier . --write",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
