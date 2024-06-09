@@ -1,5 +1,11 @@
 # @vtex-missing/api-types
 
+## 1.0.0
+
+### Major Changes
+
+- 3061e64: use vtex openschema to generate types
+
 ## 0.4.0
 
 ### Minor Changes
