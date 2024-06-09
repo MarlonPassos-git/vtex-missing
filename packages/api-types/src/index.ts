@@ -3,8 +3,6 @@ import openapiTS, { astToString } from "openapi-typescript";
 import fs from "node:fs";
 import path from "node:path";
 import { URL } from "url";
-// import { OrdersAPI_PIIversion } from "../generated"
-
 
 /**
  * @todo Currently there are some with these files and openapi-ts lib. In the 

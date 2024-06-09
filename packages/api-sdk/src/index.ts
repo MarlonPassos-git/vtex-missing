@@ -1,2 +1,1 @@
-export * from "./catalog-api"
-import {} from "xfetch-js"
+import {} from "@vtex-miss/api-types"

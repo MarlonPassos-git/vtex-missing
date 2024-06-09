@@ -19,7 +19,7 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "xfetch-js": "^0.6.0"
+    "openapi-fetch": "^0.9.7"
   },
   "sideEffects": false,
   "author": {
