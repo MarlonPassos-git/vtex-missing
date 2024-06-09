@@ -1,3 +1,10 @@
 {
+  "compilerOptions": {
+    "module": "ESNext", // or "NodeNext"
+    "target": "ESNext",
+    "moduleResolution": "Bundler", // or "NodeNext"
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+  },
   "extends": "@tsconfig/recommended/tsconfig.json"
 }
