@@ -1,5 +1,15 @@
 # @vtex-miss/styleguide-types
 
+## 0.9.0
+
+### Minor Changes
+
+- 3568f7c: add types from NumericStepper, NumericStepperProps, Conditions and ConditionsProps
+
+### Patch Changes
+
+- e5c89df: adjustment of import typing in natively typed components
+
 ## 0.8.0
 
 ### Minor Changes
