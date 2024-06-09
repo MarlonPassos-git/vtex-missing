@@ -1,5 +1,11 @@
 # @vtex-missing/api-types
 
+## 1.0.1
+
+### Patch Changes
+
+- b550600: fix dependencies
+
 ## 1.0.0
 
 ### Major Changes
