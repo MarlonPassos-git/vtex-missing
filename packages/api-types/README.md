@@ -1,11 +1,11 @@
 # Todos 
 
 # MVP
-[] Conseguir Acessar o GitHub da vtex https://github.com/vtex/openapi-schemas
-[] Conseguir Filtrar os arquivos que de openSchema 
-[] Conseguir baixar os arquivos para pastas temporarias 
-[] Configurar o openapi-ts para gerar as tipagens 
-  [] Configurar uma maneira que vai organizar as tipages 
+[x] Conseguir Acessar o GitHub da vtex https://github.com/vtex/openapi-schemas
+[x] Conseguir Filtrar os arquivos que de openSchema 
+[x] Conseguir baixar os arquivos para pastas temporarias 
+[x] Configurar o openapi-ts para gerar as tipagens 
+  [x] Configurar uma maneira que vai organizar as tipages 
 [] Lancar essa nova versao do pacote
 [] Criar um README
 
